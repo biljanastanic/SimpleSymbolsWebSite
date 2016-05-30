@@ -1,0 +1,266 @@
+body {
+	margin: 0px;
+	color: black;
+	font-family: Georgia, "Times New Roman", Arial;
+	font-size: 13px;
+	background: url(images/background.jpg) repeat black;
+}
+.header { 
+	background: url(images/header.jpg) no-repeat;
+	height: 190px;
+	width: 1000px;
+	margin: 0 auto;
+	border-bottom: white ridge 2px;
+}
+.header h1 {
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2cm;
+	margin-top: 10px;
+	margin-left: 35%;
+	padding: 0px;
+}
+
+#nav { width: 75%;
+	  float: left;
+	  margin-left: 28%;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+#nav li a {
+	font-family: "Times New Roman", Arial;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+} 
+#nav li a:hover{
+	color: gray;
+}
+#nav li a:active{
+	color: red;
+}
+#nav a.select { 
+	background-color: white;
+	color: black;
+}
+.main{ 
+	background: url(images/box.png) no-repeat;
+	margin: 20px auto 0px auto;
+	width: 990px;
+	height: 430px;
+}
+.left { 
+	width: 50%;
+	float:left;
+}
+.left h1 { 
+	font-family: "Times New Roman", Arial;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 50px;
+	margin: 30px 0 0 30px;
+}
+.left_other {
+	width: 40%;
+	float: left;
+}
+.left_other h3 { 
+	font-family: "Times New Roman", Arial;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	text-align: justify;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+.left_other p { 
+	font-family: "Times New Roman", Arial;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	margin: 10px 0px 0px 0px;
+	padding-left: 30px;
+}
+.right_other {
+	width: 50%;
+	float: right;
+}
+.right_other h4 { 
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-style:italic;
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+.right_other p { 
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-style:italic;
+	font-size: 20px;
+	margin: 10px 100px 0px 0px;
+	padding-right: 30px;
+}
+.right { 
+	float:right;
+	width: 35%;
+}
+.right p { 
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-style:italic;
+	font-size: 30px;
+	margin: 0px;
+	padding: 200px 30px 0 0;
+}
+.footer { 
+	background: url(images/footer.png) no-repeat;
+	width: 75%;
+	margin: 30px auto 60px auto;
+}
+.footer p { 
+	margin-left: 70%;
+	color: white;
+	font-family: "Times New Roman", Arial;
+	font-size: 15px;
+	font-style: italic;
+}
+.picture {
+	margin: 20px;
+	border: 1px solid black;
+	float: left;
+}
+
+.picture img {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	border: 5px solid white;
+}
+.contact h2{ 
+	font-family:"Times New Roman", Arial;
+	font-style: italic;
+	font-size: 25px;
+	text-indent: 40px;
+	color: black;
+	padding-top: 20px;
+}
+.contact p { 
+	font-family:"Times New Roman", Arial;
+	font-weight: bold;
+	padding: 20px 0 0 40px;
+	font-style: italic;
+	font-size: 20px;
+	color: black;
+}
+.form_settings { 
+	margin: 30px;
+	padding-top: 30px;
+}
+.some { 
+	font-family: "Times New Roman", Arial;
+	font-size: 15px;
+	font-weight: bold;
+}
+.button{ 
+	margin: 15px 0px 40px 150px;
+}
+
+.text a {
+	margin-left: 55%;
+	color: black;
+	font-family: "Times New Roman", Arial;
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 20px;
+}
+.title h2 {
+	padding-left: 40%;
+	font-family: "Times New Roman", Arial;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+.gallery {
+	margin: 0px 0px 50px 80px;
+	border: 1px ridge black;
+	float: left;
+}
+.gallery img {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	border: 1px solid white;
+}
+.gallery p {
+	font-weight: bold;
+	padding-left: 20%;
+	margin-bottom: 0px;
+}
+.form { 
+	margin-top: 50px;
+	margin-left: 60%;
+	margin-bottom: 80px;
+	border: 1px dotted white;
+	width: 300px;
+}
+.form form {
+	color: white;
+	padding: 5px;
+}
+.form p {
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px 0px 10px 120px;
+}
+.submitButton {
+	background: #ccc; 
+	border: 1px solid #fff; 
+	color: #000;  
+}
+
+.titleCenter {
+	width: 990px;
+	text-align: center;
+	font-family: "Times New Roman", Arial;
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.paraDirection {
+	font-family: "Times New Roman", Arial;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 35px;
+	padding: 100px 0 0 270px;
+	width: 450px;
+	text-align: center;
+}
